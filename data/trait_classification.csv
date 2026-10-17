@@ -1,0 +1,141 @@
+trait,description,domain,subdomain,include,lcv_eligible,sensitivity,exclusion_reason
+24003_irnt,Nitrogen dioxide air pollution; 2010,air_pollution,,TRUE,TRUE,FALSE,
+24004_irnt,Nitrogen oxides air pollution; 2010,air_pollution,,FALSE,FALSE,FALSE,Redundant with NO2 2010 (rg = 0.97)
+24006_irnt,Particulate matter air pollution (pm2.5); 2010,air_pollution,,TRUE,TRUE,FALSE,
+24019_irnt,Particulate matter air pollution (pm10); 2007,air_pollution,,TRUE,TRUE,FALSE,
+24003_raw,Nitrogen dioxide air pollution; 2010,air_pollution,,FALSE,FALSE,FALSE,Raw duplicate (IRNT version used)
+24004_raw,Nitrogen oxides air pollution; 2010,air_pollution,,FALSE,FALSE,FALSE,Raw duplicate (IRNT version used)
+24005_irnt,Particulate matter air pollution (pm10); 2010,air_pollution,,FALSE,FALSE,FALSE,h2 Z < 4
+24005_raw,Particulate matter air pollution (pm10); 2010,air_pollution,,FALSE,FALSE,FALSE,Raw duplicate; h2 Z < 4
+24006_raw,Particulate matter air pollution (pm2.5); 2010,air_pollution,,FALSE,FALSE,FALSE,Raw duplicate (IRNT version used)
+24007_irnt,Particulate matter air pollution (pm2.5) absorbance; 2010,air_pollution,,FALSE,FALSE,FALSE,Redundant with NO2 2010 (rg = 0.98)
+24007_raw,Particulate matter air pollution (pm2.5) absorbance; 2010,air_pollution,,FALSE,FALSE,FALSE,Raw duplicate; redundant
+24008_irnt,Particulate matter air pollution 2.5-10um; 2010,air_pollution,,FALSE,FALSE,FALSE,h2 Z < 4
+24008_raw,Particulate matter air pollution 2.5-10um; 2010,air_pollution,,FALSE,FALSE,FALSE,Raw duplicate; h2 Z < 4
+24016_irnt,Nitrogen dioxide air pollution; 2005,air_pollution,,FALSE,FALSE,FALSE,Redundant with NO2 2010 (rg = 0.95)
+24016_raw,Nitrogen dioxide air pollution; 2005,air_pollution,,FALSE,FALSE,FALSE,Raw duplicate; redundant
+24017_irnt,Nitrogen dioxide air pollution; 2006,air_pollution,,FALSE,FALSE,FALSE,Redundant with NO2 2010 (rg = 0.97)
+24017_raw,Nitrogen dioxide air pollution; 2006,air_pollution,,FALSE,FALSE,FALSE,Raw duplicate; redundant
+24018_irnt,Nitrogen dioxide air pollution; 2007,air_pollution,,FALSE,FALSE,FALSE,Redundant with NO2 2010 (rg = 0.93)
+24018_raw,Nitrogen dioxide air pollution; 2007,air_pollution,,FALSE,FALSE,FALSE,Raw duplicate; redundant
+24019_raw,Particulate matter air pollution (pm10); 2007,air_pollution,,FALSE,FALSE,FALSE,Raw duplicate (IRNT version used)
+1920,Mood swings,mental_health,mood,TRUE,TRUE,FALSE,
+1970,Nervous feelings,mental_health,mood,TRUE,TRUE,FALSE,
+20002_1286,"Non-cancer illness code, self-reported: depression",mental_health,depression,TRUE,TRUE,FALSE,
+20002_1287,"Non-cancer illness code, self-reported: anxiety/panic attacks",mental_health,anxiety,TRUE,FALSE,FALSE,
+20002_1291,"Non-cancer illness code, self-reported: mania/bipolar disorder/manic depression",mental_health,bipolar,TRUE,FALSE,FALSE,
+20126_3,Bipolar and major depression status: Probable Recurrent major depression (severe),mental_health,depression,TRUE,FALSE,FALSE,
+20126_4,Bipolar and major depression status: Probable Recurrent major depression (moderate),mental_health,depression,TRUE,FALSE,FALSE,
+20417,"Tense, sore, or aching muscles during worst period of anxiety",mental_health,anxiety,TRUE,FALSE,FALSE,
+20418,Impact on normal roles during worst period of anxiety,mental_health,anxiety,TRUE,FALSE,FALSE,
+20427,Frequent trouble falling or staying asleep during worst period of anxiety,mental_health,anxiety,TRUE,FALSE,FALSE,
+20433_irnt,Age at first episode of depression,mental_health,depression,TRUE,FALSE,FALSE,
+20434_irnt,Age at last episode of depression,mental_health,depression,TRUE,FALSE,FALSE,
+20435,Difficulty concentrating during worst depression,mental_health,depression,TRUE,FALSE,FALSE,
+20436,Fraction of day affected during worst episode of depression,mental_health,depression,TRUE,FALSE,FALSE,
+20438,Duration of worst depression,mental_health,depression,TRUE,FALSE,FALSE,
+20439,Frequency of depressed days during worst episode of depression,mental_health,depression,TRUE,FALSE,FALSE,
+20440,Impact on normal roles during worst period of depression,mental_health,depression,TRUE,FALSE,FALSE,
+20446,Ever had prolonged feelings of sadness or depression,mental_health,depression,TRUE,TRUE,FALSE,
+20449,Feelings of tiredness during worst episode of depression,mental_health,depression,TRUE,FALSE,FALSE,
+20450,Feelings of worthlessness during worst period of depression,mental_health,depression,TRUE,FALSE,FALSE,
+20495,Avoided activities or situations because of previous stressful experience in past month,mental_health,trauma,TRUE,TRUE,FALSE,
+20497,Repeated disturbing thoughts of stressful experience in past month,mental_health,trauma,TRUE,TRUE,FALSE,
+20498,Felt very upset when reminded of stressful experience in past month,mental_health,trauma,TRUE,TRUE,FALSE,
+2050,Frequency of depressed mood in last 2 weeks,mental_health,depression,TRUE,TRUE,FALSE,
+20500,Ever suffered mental distress preventing usual activities,mental_health,distress,TRUE,TRUE,FALSE,
+20506,Recent feelings or nervousness or anxiety,mental_health,anxiety,TRUE,TRUE,FALSE,
+20510,Recent feelings of depression,mental_health,depression,TRUE,TRUE,FALSE,
+20519,Recent feelings of tiredness or low energy,mental_health,fatigue,TRUE,TRUE,FALSE,
+20536_0,Weight change during worst episode of depression: Stayed about the same or was on a diet,mental_health,depression,TRUE,TRUE,FALSE,
+20536_1,Weight change during worst episode of depression: Gained weight,mental_health,depression,TRUE,TRUE,FALSE,
+20536_2,Weight change during worst episode of depression: Lost weight,mental_health,depression,TRUE,FALSE,FALSE,
+20539,Frequency of inability to stop worrying during worst period of anxiety,mental_health,anxiety,TRUE,FALSE,FALSE,
+20544_11,Mental health problems ever diagnosed by a professional: Depression,mental_health,depression,TRUE,TRUE,FALSE,
+20544_15,"Mental health problems ever diagnosed by a professional: Anxiety, nerves or generalized anxiety disorder",mental_health,anxiety,TRUE,TRUE,FALSE,
+2080,Frequency of tiredness / lethargy in last 2 weeks,mental_health,fatigue,TRUE,TRUE,FALSE,
+4620,Number of depression episodes,mental_health,depression,TRUE,FALSE,FALSE,
+F5_DEPRESSIO,Depression,mental_health,depression,TRUE,FALSE,FALSE,
+F5_MOOD,Mood [affective] disorders,mental_health,depression,TRUE,FALSE,FALSE,
+KRA_PSY_MOOD,Mood disorders,mental_health,,FALSE,FALSE,FALSE,Duplicate endpoint (identical to F5_MOOD)
+20002_1288,"Non-cancer illness code, self-reported: nervous breakdown",mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20002_1469,"Non-cancer illness code, self-reported: post-traumatic stress disorder",mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20002_1614,"Non-cancer illness code, self-reported: stress",mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20126_0,Bipolar and major depression status: No Bipolar or Depression,mental_health,,FALSE,FALSE,FALSE,Reference category
+20126_1,Bipolar and major depression status: Bipolar I Disorder,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20126_2,Bipolar and major depression status: Bipolar II Disorder,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20126_5,Bipolar and major depression status: Single Probable major depression episode,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20419,Difficulty concentrating during worst period of anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20422,More irritable than usual during worst period of anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20423,Keyed up or on edge during worst period of anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20426,Restless during period of worst anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20429,Easily tired during worst period of anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20433_raw,Age at first episode of depression,mental_health,,FALSE,FALSE,FALSE,Raw duplicate (IRNT version used)
+20434_raw,Age at last episode of depression,mental_health,,FALSE,FALSE,FALSE,Raw duplicate (IRNT version used)
+20437,Thoughts of death during worst depression,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20445,Depression possibly related to childbirth,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20447,Depression possibly related to stressful or traumatic event,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20462,Distress caused by unusual or psychotic experiences,mental_health,,FALSE,FALSE,FALSE,No LDSC input file
+20536_3,Weight change during worst episode of depression: Both gained and lost some weight during the episode,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20537,Frequency of difficulty controlling worry during worst period of anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20538,Worried most days during period of worst anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20540,Multiple worries during worst period of anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20541,Difficulty stopping worrying during worst period of anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20542,Stronger worrying (than other people) during period of worst anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20543,Number of things worried about during worst period of anxiety,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20544_1,Mental health problems ever diagnosed by a professional: Social anxiety or social phobia,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20544_10,"Mental health problems ever diagnosed by a professional: Mania, hypomania, bipolar or manic-depression",mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+4609_irnt,Longest period of depression,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+4609_raw,Longest period of depression,mental_health,,FALSE,FALSE,FALSE,Raw duplicate (IRNT version used)
+F41,Diagnoses - main ICD10: F41 Other anxiety disorders,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+F43,"Diagnoses - main ICD10: F43 Reaction to severe stress, and adjustment disorders",mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+F5_ALLANXIOUS,All anxiety disorders,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+F5_ANXIETY,Other anxiety disorders,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+KRA_PSY_ANXIETY,Anxiety disorders,mental_health,,FALSE,FALSE,FALSE,h2 Z < 4
+20458,General happiness,wellbeing,unhappiness,TRUE,TRUE,FALSE,
+20459,General happiness with own health,wellbeing,unhappiness,TRUE,TRUE,FALSE,
+4526,Happiness,wellbeing,unhappiness,TRUE,TRUE,FALSE,
+20428,Professional informed about anxiety,help_seeking,,FALSE,FALSE,FALSE,Help-seeking/treatment; h2 Z < 4
+20448,Professional informed about depression,help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+20499,Ever sought or received professional help for mental distress,help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+20546_1,Substances taken for depression: Unprescribed medication (more than once),help_seeking,,FALSE,FALSE,FALSE,Help-seeking/treatment; h2 Z < 4
+20546_3,Substances taken for depression: Medication prescribed to you (for at least two weeks),help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+20546_4,Substances taken for depression: Drugs or alcohol (more than once),help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+20547_1,"Activities undertaken to treat depression: Talking therapies, such as psychotherapy, counselling, group therapy or CBT",help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+20547_3,"Activities undertaken to treat depression: Other therapeutic activities such as mindfulness, yoga or art classes",help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+20549_1,Substances taken for anxiety: Unprescribed medication (more than once),help_seeking,,FALSE,FALSE,FALSE,Help-seeking/treatment; h2 Z < 4
+20549_3,Substances taken for anxiety: Medication prescribed to you (for at least two weeks),help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+20549_4,Substances taken for anxiety: Drugs or alcohol (more than once),help_seeking,,FALSE,FALSE,FALSE,Help-seeking/treatment; h2 Z < 4
+20550_1,"Activities undertaken to treat anxiety: Talking therapies, such as psychotherapy, counselling, group therapy or CBT",help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+20550_3,"Activities undertaken to treat anxiety: Other therapeutic activities such as mindfulness, yoga or art classes",help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+2090,"Seen doctor (GP) for nerves, anxiety, tension or depression",help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+2100,"Seen a psychiatrist for nerves, anxiety, tension or depression",help_seeking,,FALSE,FALSE,TRUE,Help-seeking/treatment (sensitivity set only)
+20107_12,Illnesses of father: Severe depression,family_history,,FALSE,FALSE,FALSE,Not a mental health phenotype
+20110_12,Illnesses of mother: Severe depression,family_history,,FALSE,FALSE,FALSE,Not a mental health phenotype
+20111_12,Illnesses of siblings: Severe depression,family_history,,FALSE,FALSE,FALSE,Not a mental health phenotype
+20113_12,Illnesses of adopted mother: Severe depression,family_history,,FALSE,FALSE,FALSE,Not a mental health phenotype
+20114_12,Illnesses of adopted siblings: Severe depression,family_history,,FALSE,FALSE,FALSE,Not a mental health phenotype
+6145_1,"Illness, injury, bereavement, stress in last 2 years: Serious illness, injury or assault to yourself",life_events,,FALSE,FALSE,FALSE,Not a mental health phenotype
+6145_100,"Illness, injury, bereavement, stress in last 2 years: None of the above",life_events,,FALSE,FALSE,FALSE,Not a mental health phenotype
+6145_2,"Illness, injury, bereavement, stress in last 2 years: Serious illness, injury or assault of a close relative",life_events,,FALSE,FALSE,FALSE,Not a mental health phenotype
+6145_3,"Illness, injury, bereavement, stress in last 2 years: Death of a close relative",life_events,,FALSE,FALSE,FALSE,Not a mental health phenotype
+6145_4,"Illness, injury, bereavement, stress in last 2 years: Death of a spouse or partner",life_events,,FALSE,FALSE,FALSE,Not a mental health phenotype
+6145_5,"Illness, injury, bereavement, stress in last 2 years: Marital separation/divorce",life_events,,FALSE,FALSE,FALSE,Not a mental health phenotype
+6145_6,"Illness, injury, bereavement, stress in last 2 years: Financial difficulties",life_events,,FALSE,FALSE,FALSE,Not a mental health phenotype
+22660_108,Gap coding: Retired,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+6142_2,Current employment status: Retired,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+AB1_VIRAL_CNS,Viral infections of the central nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+C3_EYE_BRAIN_NEURO,"Malignant neoplasm of eye, brain and central nervous system",not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+D33,Diagnoses - main ICD10: D33 Benign neoplasm of brain and other parts of central nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+D43,Diagnoses - main ICD10: D43 Neoplasm of uncertain or unknown behaviour of brain and central nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+G37,Diagnoses - main ICD10: G37 Other demyelinating diseases of central nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+G6_DEGENOTH,Other and unspecified degenerative diseases of nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+G6_DEMYEL,Demyelenating diseases of the central nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+G6_NEUATR,Systemic atrophies primarly affecting the central nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+G6_NEUINFL,Inflammatory diseases of the central nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+G6_NEURODEG,Other degenerative diseases of the nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+G6_POLYNEU,Polyneuropathies and other disorders of the peripheral nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+NEURODEGOTH,Other degenerative diseases of the nervous system,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+O68,Diagnoses - main ICD10: O68 Labour and delivery complicated by foetal stress [distress],not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+PULM_ANXIETY,Anxiety (asthma-related co-morbidities),not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype
+R29,Diagnoses - main ICD10: R29 Other symptoms and signs involving the nervous and musculoskeletal systems,not_relevant,,FALSE,FALSE,FALSE,Not a mental health phenotype

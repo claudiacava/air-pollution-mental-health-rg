@@ -1,0 +1,9 @@
+sumstats_raw/
+sumstats_qc/
+sumstats_ldsc/
+results/
+figures/
+data/manifest.tsv
+*.rds
+*.RData
+.Rhistory
